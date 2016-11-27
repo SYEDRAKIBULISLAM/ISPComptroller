@@ -1,0 +1,5 @@
+@page { margin: 0; }
+body { margin: 0.5cm; }
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after { content: " (" attr(href) ") "; display: none !important; }
+abbr[title]:after { content: " (" attr(title) ")"; }
+
